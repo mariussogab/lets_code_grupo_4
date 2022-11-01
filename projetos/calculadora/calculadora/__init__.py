@@ -18,6 +18,4 @@ def calcule():
         return resultado
     else:
         print(f'operação não reconhecida, escolha entre {list(switcher.keys())}')
-    
-
 
