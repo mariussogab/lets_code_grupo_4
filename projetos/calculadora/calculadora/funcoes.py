@@ -25,4 +25,3 @@ def divisao(a,b):
             return a/b 
     else:
         return f'Impossível somar, tipos não compátivel com a operação'
-    i
