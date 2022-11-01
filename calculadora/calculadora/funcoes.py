@@ -1,14 +1,28 @@
 def soma(a,b):
-    return a+b
+    if isinstance(a,(int,float)) and isinstance(b,(int,float)):
+        return a+b
+    else:
+        return f'Impossível somar, tipos não compátivel com a operação'
 
 def subtracao(a,b):
-    return a-b
+    if isinstance(a,(int,float)) and isinstance(b,(int,float)):
+        return a-b
+    else:
+        return f'Impossível somar, tipos não compátivel com a operação'
 
 def multiplicacao(a,b):
-    return a*b
+    if isinstance(a,(int,float)) and isinstance(b,(int,float)):
+        return a*b
+    else:
+        return f'Impossível somar, tipos não compátivel com a operação'
 
 def divisao(a,b):
-    try:
-        return a/b
-    except:
-        return f"nao da pra dividir por 0"
+    if isinstance(a,(int,float)) and isinstance(b,(int,float)):
+        if b == 0:
+            print('Erro de divisão por zero')
+            return 0
+        else:
+            return a/b 
+    else:
+        return f'Impossível somar, tipos não compátivel com a operação'
+    i
