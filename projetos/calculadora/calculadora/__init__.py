@@ -1,4 +1,4 @@
-from funcoes import soma, subtracao, multiplicacao, divisao
+from .funcoes import soma, subtracao, multiplicacao, divisao
 def calcule():
     a = float(input('Digite o primeiro número: '))
     b = float(input('Digite o segundo número: '))
