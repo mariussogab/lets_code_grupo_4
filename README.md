@@ -1,3 +1,3 @@
-## Projeto let's code turma 892 grupo 4
+##Adatech Turma 892 de Data Science 
 
-Projeto destinado para teste de git hub, com script de calculadora
+Repositório pessoal destinado a aulas, atividades e projetos para o curso de data science do projeto diversidade tech da suzano em parceria com a Ada.
